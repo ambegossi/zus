@@ -8,17 +8,7 @@ function App() {
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
 
   const { data } = useFetchTopMangas();
-  const { favorites } = useFavoriteMangas();
-
-  const handleFavoriteManga = useCallback((id: number) => {
-    const shouldFavorite = !favorites.includes(id);
-
-    if(shouldFavorite) {
-      useFavoriteMangas.setState({ favorites: [...favorites, id] })
-    } else {
-      useFavoriteMangas.setState({ favorites: favorites.filter((mangaId) => mangaId !== id) })
-    }
-  }, [favorites]);
+  const { favorites, favoriteManga } = useFavoriteMangas();
 
   const toggleShowOnlyFavoriets = useCallback(() => {
     setShowOnlyFavorites((prev) => !prev)
@@ -39,7 +29,7 @@ function App() {
 
           <p>{manga.title}</p>
         
-          <button onClick={() => handleFavoriteManga(manga.mal_id)}>
+          <button onClick={() => favoriteManga(manga.mal_id)}>
             Favorite
           </button>
         </div>
