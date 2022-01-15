@@ -10,13 +10,13 @@ function App() {
   const { data } = useFetchTopMangas();
   const { favorites, favoriteManga } = useFavoriteMangas();
 
-  const toggleShowOnlyFavoriets = useCallback(() => {
+  const toggleShowOnlyFavorites = useCallback(() => {
     setShowOnlyFavorites((prev) => !prev)
   }, [])
 
   return (
     <div className="App" style={{ display: 'flex', flexWrap: 'wrap' }}>
-      <button onClick={toggleShowOnlyFavoriets}>
+      <button onClick={toggleShowOnlyFavorites}>
         Show favorites
       </button>
 
