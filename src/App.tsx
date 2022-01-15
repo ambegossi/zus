@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import useFetchTopMangas from './services/requests/useFetchTopMangas';
+
 function App() {
+  const { data } = useFetchTopMangas();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ display: 'flex', flexWrap: 'wrap' }}>
+      {data?.top.map((manga) => (
+        <div key={manga.mal_id} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '250px' }}>
+          <img src={manga.image_url} alt={manga.title} style={{ height: '300px' }}/>
+          <p>{manga.title}</p>
+        </div>
+      ))}
     </div>
   );
 }
