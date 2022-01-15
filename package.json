@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-query": "^1.2.9"
+    "@types/react-query": "^1.2.9",
+    "nock": "^13.2.2"
   }
 }
