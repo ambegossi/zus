@@ -1,6 +1,6 @@
-import { useQuery } from 'react-query'
+import { useQuery } from 'react-query';
 
-import api from '../../api'
+import api from '../../api';
 import { TopMangaApiResponse } from './types';
 
 async function getTopMangas() {
@@ -9,6 +9,6 @@ async function getTopMangas() {
   return data;
 }
 
-export default function useFetchTopMangas() {
+export function useFetchTopMangas() {
   return useQuery('topMangas', getTopMangas);
 }
