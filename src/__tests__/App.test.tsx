@@ -45,17 +45,17 @@ test('favorite manga successfully', async () => {
   favoriteFirstMangaButton.click();
   showFavoritesButton.click();
 
-  await waitFor(() => {
+  await waitFor(async () => {
     const firstMangaElement = screen.getByText(firstTopManga.title);
 
-    expect(firstMangaElement).toBeInTheDocument();
+    await expect(firstMangaElement).toBeInTheDocument();
   })
 
 
-  await waitFor(() => {
+  await waitFor(async () => {
     const secondMangaElement = screen.queryByText(secondTopManga.title);
 
-    expect(secondMangaElement).not.toBeInTheDocument();
+    await expect(secondMangaElement).not.toBeInTheDocument();
   })
 });
 
