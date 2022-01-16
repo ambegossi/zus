@@ -1,4 +1,4 @@
-import { createStitches } from '@stitches/react';
+import { createStitches, ScaleValue } from '@stitches/react';
 
 const convertToRem = (value: number) => `${value / 16}rem`;
 
@@ -45,4 +45,14 @@ export const { styled: zusStyled } = createStitches({
     space,
     sizes: space,
   },
+  utils: {
+    px: (value: ScaleValue<'space'>) => ({
+      paddingLeft: value,
+      paddingRight: value,
+    }),
+    py: (value: ScaleValue<'space'>) => ({
+      paddingTop: value,
+      paddingBottom: value,
+    })
+  }
 });
