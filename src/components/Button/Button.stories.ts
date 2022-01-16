@@ -4,7 +4,7 @@ import { Button, ButtonProps } from '.';
 
 type ButtonStory = StoryObj<ButtonProps>;
 
-export default { component: Button, title: 'Button' };
+export default { title: 'Button', component: Button };
 
 export const Primary: ButtonStory = {
   args: {
