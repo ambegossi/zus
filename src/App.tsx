@@ -29,7 +29,7 @@ function App() {
 
           <p>{manga.title}</p>
         
-          <button onClick={() => favoriteManga(manga.mal_id)}>
+          <button onClick={() => favoriteManga(manga.mal_id)} data-testid={`Favorite-Button-${manga.mal_id}`}>
             Favorite
           </button>
         </div>

@@ -4,9 +4,9 @@ export interface TopManga {
     title: string;
     url: string;
     type: string;
-    volumes?: number;
+    volumes: number | null;
     start_date: string;
-    end_date: string;
+    end_date: string | null;
     members: number;
     score: number;
     image_url: string;

@@ -1,0 +1,914 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot 1`] = `
+<div>
+  <div
+    class="App"
+    style="display: flex; flex-wrap: wrap;"
+  >
+    <button>
+      Show favorites
+    </button>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Berserk"
+        src="https://cdn.myanimelist.net/images/manga/1/157897.jpg?s=f03b5f8bfeb0b0962b7d5e7cb9a8d0d3"
+        style="height: 300px;"
+      />
+      ⭐️
+      <p>
+        Berserk
+      </p>
+      <button
+        data-testid="Favorite-Button-2"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="JoJo no Kimyou na Bouken Part 7: Steel Ball Run"
+        src="https://cdn.myanimelist.net/images/manga/3/179882.jpg?s=dac8109140406ca296cf4946296b5037"
+        style="height: 300px;"
+      />
+      
+      <p>
+        JoJo no Kimyou na Bouken Part 7: Steel Ball Run
+      </p>
+      <button
+        data-testid="Favorite-Button-1706"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="One Piece"
+        src="https://cdn.myanimelist.net/images/manga/2/253146.jpg?s=e5286481ed2b4c11ab39d1420110dc43"
+        style="height: 300px;"
+      />
+      
+      <p>
+        One Piece
+      </p>
+      <button
+        data-testid="Favorite-Button-13"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Vagabond"
+        src="https://cdn.myanimelist.net/images/manga/2/181787.jpg?s=bbd3ff81b5d8e50781531c60cd68773f"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Vagabond
+      </p>
+      <button
+        data-testid="Favorite-Button-656"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Monster"
+        src="https://cdn.myanimelist.net/images/manga/3/54525.jpg?s=c660994ac8ba790d9e6bb2400f7c73cd"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Monster
+      </p>
+      <button
+        data-testid="Favorite-Button-1"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Fullmetal Alchemist"
+        src="https://cdn.myanimelist.net/images/manga/3/243675.jpg?s=8cb0a643f8a7597514447f2dd0e4ffc2"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Fullmetal Alchemist
+      </p>
+      <button
+        data-testid="Favorite-Button-25"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Oyasumi Punpun"
+        src="https://cdn.myanimelist.net/images/manga/3/164420.jpg?s=76cffa4b8fdbfedb7a554a5a5695a47a"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Oyasumi Punpun
+      </p>
+      <button
+        data-testid="Favorite-Button-4632"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Grand Blue"
+        src="https://cdn.myanimelist.net/images/manga/2/166124.jpg?s=3a3e1279dd192ea90a32ff6bdfdbe4dc"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Grand Blue
+      </p>
+      <button
+        data-testid="Favorite-Button-70345"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Slam Dunk"
+        src="https://cdn.myanimelist.net/images/manga/2/157904.jpg?s=c8477fd874de514caeb368880ec9e1db"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Slam Dunk
+      </p>
+      <button
+        data-testid="Favorite-Button-51"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Kingdom"
+        src="https://cdn.myanimelist.net/images/manga/2/171872.jpg?s=21a45c6d977c58c19e3075b015c4ee39"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Kingdom
+      </p>
+      <button
+        data-testid="Favorite-Button-16765"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Vinland Saga"
+        src="https://cdn.myanimelist.net/images/manga/2/188925.jpg?s=18b1d30b74bf96b476068901f579e408"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Vinland Saga
+      </p>
+      <button
+        data-testid="Favorite-Button-642"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Monogatari Series: First Season"
+        src="https://cdn.myanimelist.net/images/manga/5/173535.jpg?s=b3742ac411067d352b351824b11b5836"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Monogatari Series: First Season
+      </p>
+      <button
+        data-testid="Favorite-Button-14893"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="20th Century Boys"
+        src="https://cdn.myanimelist.net/images/manga/1/54437.jpg?s=2dfac509e795f7cc672f1b4c4930bf92"
+        style="height: 300px;"
+      />
+      
+      <p>
+        20th Century Boys
+      </p>
+      <button
+        data-testid="Favorite-Button-3"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Ashita no Joe"
+        src="https://cdn.myanimelist.net/images/manga/4/75029.jpg?s=9888e364738fc189aab5408ebeb63435"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Ashita no Joe
+      </p>
+      <button
+        data-testid="Favorite-Button-1303"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen"
+        src="https://cdn.myanimelist.net/images/manga/3/188896.jpg?s=107a5af07f0e6992faa286f94596f231"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen
+      </p>
+      <button
+        data-testid="Favorite-Button-90125"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="3-gatsu no Lion"
+        src="https://cdn.myanimelist.net/images/manga/1/52281.jpg?s=de71b0293b835f698d65143d9bf14cee"
+        style="height: 300px;"
+      />
+      
+      <p>
+        3-gatsu no Lion
+      </p>
+      <button
+        data-testid="Favorite-Button-1224"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Houseki no Kuni"
+        src="https://cdn.myanimelist.net/images/manga/1/115443.jpg?s=9795cb8739785d402a60e5aade4ddf3b"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Houseki no Kuni
+      </p>
+      <button
+        data-testid="Favorite-Button-44489"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Monogatari Series: Second Season"
+        src="https://cdn.myanimelist.net/images/manga/2/181553.jpg?s=f27f4bdebd5a5d90996112eda295cf1b"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Monogatari Series: Second Season
+      </p>
+      <button
+        data-testid="Favorite-Button-23751"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="GTO"
+        src="https://cdn.myanimelist.net/images/manga/2/172982.jpg?s=12df0730d20b4e6c9294bf8293feb5ee"
+        style="height: 300px;"
+      />
+      
+      <p>
+        GTO
+      </p>
+      <button
+        data-testid="Favorite-Button-336"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e: 2-nensei-hen"
+        src="https://cdn.myanimelist.net/images/manga/3/235363.jpg?s=c149025727da0c0cb037d23e25677c92"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e: 2-nensei-hen
+      </p>
+      <button
+        data-testid="Favorite-Button-123992"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Yotsuba to!"
+        src="https://cdn.myanimelist.net/images/manga/3/57369.jpg?s=04002980dcd4cfd0fb15e3bb9597d934"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Yotsuba to!
+      </p>
+      <button
+        data-testid="Favorite-Button-104"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e"
+        src="https://cdn.myanimelist.net/images/manga/2/177958.jpg?s=53f4b8f50c92e541bdd3e1d662e9b3eb"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e
+      </p>
+      <button
+        data-testid="Favorite-Button-89357"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Koe no Katachi"
+        src="https://cdn.myanimelist.net/images/manga/1/120529.jpg?s=7d7fdc308409589ca579b5a9376effd9"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Koe no Katachi
+      </p>
+      <button
+        data-testid="Favorite-Button-56805"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Ookami to Koushinryou"
+        src="https://cdn.myanimelist.net/images/manga/2/153860.jpg?s=3981f0bee3695e1a75744764f8d1b257"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Ookami to Koushinryou
+      </p>
+      <button
+        data-testid="Favorite-Button-9115"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Real"
+        src="https://cdn.myanimelist.net/images/manga/2/115969.jpg?s=5a4f02899c76aa4e575a7e877b20b4d8"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Real
+      </p>
+      <button
+        data-testid="Favorite-Button-657"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Haikyuu!!"
+        src="https://cdn.myanimelist.net/images/manga/4/89519.jpg?s=ad82f09ca07db963223d9c5d025454f3"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Haikyuu!!
+      </p>
+      <button
+        data-testid="Favorite-Button-35243"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Akatsuki no Yona"
+        src="https://cdn.myanimelist.net/images/manga/3/153249.jpg?s=09f517be8d9e7cbfe8dc98db44ad10a8"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Akatsuki no Yona
+      </p>
+      <button
+        data-testid="Favorite-Button-21525"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Monogatari Series: Final Season"
+        src="https://cdn.myanimelist.net/images/manga/1/181554.jpg?s=bbd4d7cf1d64d06cfec15220f9c39540"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Monogatari Series: Final Season
+      </p>
+      <button
+        data-testid="Favorite-Button-44227"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Kaze no Tani no Nausicaä"
+        src="https://cdn.myanimelist.net/images/manga/3/156624.jpg?s=237768196e315e268bbf5709d52af55c"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Kaze no Tani no Nausicaä
+      </p>
+      <button
+        data-testid="Favorite-Button-651"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Yahari Ore no Seishun Love Comedy wa Machigatteiru."
+        src="https://cdn.myanimelist.net/images/manga/1/122461.jpg?s=e2c4751d530c14cf510a1e8f4ce69e39"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Yahari Ore no Seishun Love Comedy wa Machigatteiru.
+      </p>
+      <button
+        data-testid="Favorite-Button-40171"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Made in Abyss"
+        src="https://cdn.myanimelist.net/images/manga/3/161645.jpg?s=58beeec91ad4532699a2b1da3c4d4cda"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Made in Abyss
+      </p>
+      <button
+        data-testid="Favorite-Button-91941"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Uchuu Kyoudai"
+        src="https://cdn.myanimelist.net/images/manga/3/166256.jpg?s=1d3e9084ba8828ce8938ad1d5777febf"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Uchuu Kyoudai
+      </p>
+      <button
+        data-testid="Favorite-Button-14483"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Solo Leveling"
+        src="https://cdn.myanimelist.net/images/manga/3/222295.jpg?s=b3abea95ceaccea8adf223bd0e4047b6"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Solo Leveling
+      </p>
+      <button
+        data-testid="Favorite-Button-121496"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Re:Zero kara Hajimeru Isekai Seikatsu"
+        src="https://cdn.myanimelist.net/images/manga/1/129447.jpg?s=59022093f8f6937a00b6dc9c9f668c00"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Re:Zero kara Hajimeru Isekai Seikatsu
+      </p>
+      <button
+        data-testid="Favorite-Button-74697"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de."
+        src="https://cdn.myanimelist.net/images/manga/3/197880.jpg?s=836e55af7bfc57ed77d1e9cc553aa999"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.
+      </p>
+      <button
+        data-testid="Favorite-Button-100448"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Utsuro no Hako to Zero no Maria"
+        src="https://cdn.myanimelist.net/images/manga/2/175662.jpg?s=b9b22bf0e733997a1325b6461032eeac"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Utsuro no Hako to Zero no Maria
+      </p>
+      <button
+        data-testid="Favorite-Button-55215"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Umineko no Naku Koro ni Chiru - Episode 8: Twilight of the Golden Witch"
+        src="https://cdn.myanimelist.net/images/manga/3/206205.jpg?s=96c2a8b6097d3d142c66342609fe919c"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Umineko no Naku Koro ni Chiru - Episode 8: Twilight of the Golden Witch
+      </p>
+      <button
+        data-testid="Favorite-Button-34053"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="The Horizon"
+        src="https://cdn.myanimelist.net/images/manga/1/229331.jpg?s=c0ea9fd43c57983166e994940f50b441"
+        style="height: 300px;"
+      />
+      
+      <p>
+        The Horizon
+      </p>
+      <button
+        data-testid="Favorite-Button-125036"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Nana"
+        src="https://cdn.myanimelist.net/images/manga/1/163191.jpg?s=0f2e6fea0853b7ca2608c6ec213727d1"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Nana
+      </p>
+      <button
+        data-testid="Favorite-Button-28"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Mushishi"
+        src="https://cdn.myanimelist.net/images/manga/2/159514.jpg?s=83c655376f84797c601792fa52e094ea"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Mushishi
+      </p>
+      <button
+        data-testid="Favorite-Button-418"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Blue Period"
+        src="https://cdn.myanimelist.net/images/manga/2/204827.jpg?s=59b5a5078655a52434668caf6ec83bfb"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Blue Period
+      </p>
+      <button
+        data-testid="Favorite-Button-107931"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="One Punch-Man"
+        src="https://cdn.myanimelist.net/images/manga/3/80661.jpg?s=3eb9cd0c329dacd00f6c318ee0f5945f"
+        style="height: 300px;"
+      />
+      
+      <p>
+        One Punch-Man
+      </p>
+      <button
+        data-testid="Favorite-Button-44347"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Yokohama Kaidashi Kikou"
+        src="https://cdn.myanimelist.net/images/manga/1/171813.jpg?s=f4183bcb27637b1d000a8797d63332a9"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Yokohama Kaidashi Kikou
+      </p>
+      <button
+        data-testid="Favorite-Button-4"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Death Note"
+        src="https://cdn.myanimelist.net/images/manga/2/54453.jpg?s=64e676c2d2ea8370b400a0503db2bc46"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Death Note
+      </p>
+      <button
+        data-testid="Favorite-Button-21"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Natsume Yuujinchou"
+        src="https://cdn.myanimelist.net/images/manga/4/154023.jpg?s=2507c4a239ca800e10e4427b0e60351b"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Natsume Yuujinchou
+      </p>
+      <button
+        data-testid="Favorite-Button-1859"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Chainsaw Man"
+        src="https://cdn.myanimelist.net/images/manga/3/216464.jpg?s=be8b827c88ca462abed2d034b1a98dae"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Chainsaw Man
+      </p>
+      <button
+        data-testid="Favorite-Button-116778"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="86"
+        src="https://cdn.myanimelist.net/images/manga/3/194315.jpg?s=3844c469c8f810b8f496b0beddcfaf5c"
+        style="height: 300px;"
+      />
+      
+      <p>
+        86
+      </p>
+      <button
+        data-testid="Favorite-Button-104039"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Akira"
+        src="https://cdn.myanimelist.net/images/manga/2/157929.jpg?s=721c68c609abd2587e8dae8eeed7e65c"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Akira
+      </p>
+      <button
+        data-testid="Favorite-Button-664"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Mushoku Tensei: Isekai Ittara Honki Dasu"
+        src="https://cdn.myanimelist.net/images/manga/3/120337.jpg?s=bac74eab7cfacca199e1674799dfe095"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Mushoku Tensei: Isekai Ittara Honki Dasu
+      </p>
+      <button
+        data-testid="Favorite-Button-70261"
+      >
+        Favorite
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 250px;"
+    >
+      <img
+        alt="Hunter x Hunter"
+        src="https://cdn.myanimelist.net/images/manga/2/253119.jpg?s=f9d25027f52ceb3d4f127ab96c3e0e5e"
+        style="height: 300px;"
+      />
+      
+      <p>
+        Hunter x Hunter
+      </p>
+      <button
+        data-testid="Favorite-Button-26"
+      >
+        Favorite
+      </button>
+    </div>
+  </div>
+</div>
+`;
