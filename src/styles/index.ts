@@ -26,7 +26,7 @@ export const { styled: zusStyled } = createStitches({
       gray700: '#202020',
       gray600: '#333333',
 
-      zusRed: '#ff014d',
+      'zus-red': '#ff014d',
 
       background: '#1a1a1a',
       shape: '#202020',
@@ -39,8 +39,9 @@ export const { styled: zusStyled } = createStitches({
       'button-secondary-bg': 'transparent',
       'button-secondary-text': '#ffffff',
     },
-    radius: {
+    radii: {
       default: '4px',
+      pill: '999999px'
     },
     space,
     sizes: space,
