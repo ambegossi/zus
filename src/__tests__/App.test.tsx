@@ -5,7 +5,7 @@ import nock from 'nock';
 import App from '../App';
 import Provider from '../Provider';
 
-import { topMangas } from '../__mocks__/topMangas';
+import { topMangas } from '../mocks/topMangas';
 
 nock('https://api.jikan.moe/v3/')
   .persist()
