@@ -1,8 +1,8 @@
-import { Story } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 
 import { Button, ButtonProps } from '.';
 
-type ButtonStory = Story<ButtonProps>;
+type ButtonStory = StoryObj<ButtonProps>;
 
 export default { component: Button, title: 'Button' };
 
